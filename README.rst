@@ -9,7 +9,7 @@ Editing cheatsheets and contributing
 ------------------------------------
 
 Cheetsheets master files are stored in Google Docs (ask us for the
-link).  You also need to ask to be given edit access.  Edit the pages
+link).  You also need to ask to be given write access.  Edit the pages
 there, as are.  Increment the version number appropriate to the
 changes you make (I usually don't for the most minor of changes)
 
@@ -22,10 +22,13 @@ Run the ``Makefile output-name.pdf`` to compile the cheatsheet.  The
 only dependency should be ``pdfnup``, which is in the Debian package
 ``texlive-extra-utils``.
 
-``git commit`` the updated cheatsheets.  Yes, this is mixing binary
-compiled files with code, which we will work on changing later.  In
-the future, we should revise this process some.  It's probably that we
-will force-push to flatten history when that happens.
+``git commit`` the updated cheatsheets.
+
+Cheatsheets are served via Github Pages directly from the master
+branch.  Yes, this is mixing binary compiled files with code, which we
+will work on changing later.  Expect revisions to this process in the
+future.  It's probably that we will force-push to flatten history when
+that happens.
 
 New cheatsheets: explicitly ``git add -f`` the new cheatsheet, since
 ``*.pdf`` is ignored (so that downloaded PDFs are hidden by default).

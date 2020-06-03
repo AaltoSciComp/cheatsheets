@@ -34,6 +34,14 @@ New cheatsheets: explicitly ``git add -f`` the new cheatsheet, since
 ``*.pdf`` is ignored (so that downloaded PDFs are hidden by default).
 
 
+Non-automated cheatsheets
+-------------------------
+
+* `git-cheatsheet.pdf`: custom version of the Gitlab cheatsheet
+* `git-for-normal-people-cheatsheet_1.0.pdf`: downloaded directly from
+  Google drive, does not need processing.
+
+
 Status and maintenance
 ----------------------
 

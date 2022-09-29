@@ -1,3 +1,13 @@
+cs-dl:
+	wget -O "CSIT Cheatsheet.pdf" https://docs.google.com/document/d/1e_PnmOh0BwLI6l86O36q1VlMH3mvn4eiSf9kN2FUe-s/export?format=pdf
+sci-dl:
+	wget -O "Science-IT Cheatsheet - Data Management.pdf" https://docs.google.com/document/d/1boUsVxg8W1g_Tfx7r0wynKJe7FtE6cI3ImLpuFRpr7w/export?format=pdf
+triton-dl:
+	wget -O "Triton Cheatsheet.pdf" https://docs.google.com/document/d/1yeQeSqATIiodNW-S1bttNh44jAgi_FoaH7dccPPNwZ0/export?format=pdf
+git-for-normal-people:
+	wget -O git-for-normal-people-cheatsheet.pdf https://docs.google.com/document/d/12M49Zc5ldnwtyd85anVoNhWyD065IwdpbBaMBUCQsD4/export?format=pdf
+
+
 cs:
 	pdfnup "CSIT Cheatsheet.pdf" 1-2 --outfile cs-cheatsheet.pdf
 sci:

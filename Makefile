@@ -4,8 +4,10 @@ sci-dl:
 	wget -O "Science-IT Cheatsheet - Data Management.pdf" https://docs.google.com/document/d/1boUsVxg8W1g_Tfx7r0wynKJe7FtE6cI3ImLpuFRpr7w/export?format=pdf
 triton-dl:
 	wget -O "Triton Cheatsheet.pdf" https://docs.google.com/document/d/1yeQeSqATIiodNW-S1bttNh44jAgi_FoaH7dccPPNwZ0/export?format=pdf
-git-for-normal-people:
-	wget -O git-for-normal-people-cheatsheet.pdf https://docs.google.com/document/d/12M49Zc5ldnwtyd85anVoNhWyD065IwdpbBaMBUCQsD4/export?format=pdf
+#git-for-normal-people:
+#	wget -O git-for-normal-people-cheatsheet.pdf https://docs.google.com/document/d/12M49Zc5ldnwtyd85anVoNhWyD065IwdpbBaMBUCQsD4/export?format=pdf
+git-the-way-you-need-it:
+	wget -O git-the-way-you-need-it-cheatsheet.pdf https://docs.google.com/document/d/12M49Zc5ldnwtyd85anVoNhWyD065IwdpbBaMBUCQsD4/export?format=pdf
 
 
 cs:
